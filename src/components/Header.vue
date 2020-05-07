@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <section class="hero is-primary is-bold">
+    <section class="hero is-bold" style="background-color: #8EC5FC; background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);">
       <div class="hero-body">
         <div class="container">
           <nav class="level">
@@ -24,15 +24,8 @@
             <div class="level-right">
               <div class="level-item">
                 <b-tooltip type="is-dark" label="Go to Options">
-                  <a class="has-text-white" href="/options/options.html">
+                  <a class="has-text-dark" href="/options/options.html">
                     <i class="mdi mdi-settings mdi-24px"></i>
-                  </a>
-                </b-tooltip>
-              </div>
-              <div class="level-item">
-                <b-tooltip type="is-dark" label="Go to Request Page">
-                  <a class="has-text-white" href="/request/request.html">
-                    <i class="mdi mdi-earth mdi-24px"></i>
                   </a>
                 </b-tooltip>
               </div>
