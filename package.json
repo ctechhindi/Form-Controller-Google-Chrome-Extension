@@ -1,0 +1,19 @@
+{
+  "name": "form-controller",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service build --mode development --watch",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "buefy": "^0.8.17",
+    "register-service-worker": "^1.7.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.3.0",
+    "vue-cli-plugin-browser-extension": "~0.24.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
