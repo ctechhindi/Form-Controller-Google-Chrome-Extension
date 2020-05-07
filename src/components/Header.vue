@@ -24,7 +24,7 @@
             <div class="level-right">
               <div class="level-item">
                 <b-tooltip type="is-dark" label="Go to Options">
-                  <a class="has-text-dark" href="/options/options.html">
+                  <a class="has-text-dark" href="/options.html">
                     <i class="mdi mdi-settings mdi-24px"></i>
                   </a>
                 </b-tooltip>
