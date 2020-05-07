@@ -4,13 +4,13 @@
       <div class="columns">
         <div class="column is-4">
           <h4 class="bd-footer-title">
-            <strong>Form Controller</strong> by
+            <strong>{{ title }}</strong> by
             <a href="http://ctechhindi.in">C Tech Hindi</a>.
           </h4>
           <p class="bd-footer-link-title">
-            <a target="_blank" href="https://www.youtube.com/channel/UCfd4AN4UKiWyHDdq-fizQGA"><i class="mdi mdi-youtube"></i> YouTube</a>
+            <a target="_blank" :href="youtubeLink"><i class="mdi mdi-youtube"></i> YouTube</a>
             <br>
-            <a target="_blank" href="https://github.com/ctechhindi"><i class="mdi mdi-git"></i> GitHub</a>
+            <a target="_blank" :href="githubLink"><i class="mdi mdi-git"></i> GitHub</a>
           </p>
           <div class="bd-footer-tsp">
             Source code licensed
@@ -32,3 +32,18 @@
     </div>
   </footer>
 </template>
+
+<script>
+import app from "../manifest.json";
+
+export default {
+  name: "Header",
+  data() {
+    return {
+      title: app.name,
+      youtubeLink: "https://www.youtube.com/channel/UCfd4AN4UKiWyHDdq-fizQGA",
+      githubLink: "https://github.com/ctechhindi",
+    };
+  }
+};
+</script>
