@@ -24,13 +24,13 @@ To upgrade and simplify any html form - Google Chrome Extension
 
 ## Screenshot
 
-![](./screenshot/screenshot1.png)
+![](./screenshot/screenshot1.PNG)
 
-![](./screenshot/screenshot2.png)
+![](./screenshot/screenshot2.PNG)
 
-![](./screenshot/screenshot3.png)
+![](./screenshot/screenshot3.PNG)
 
-![](./screenshot/screenshot4.png)
+![](./screenshot/screenshot4.PNG)
 
 ## Project setup
 
