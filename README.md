@@ -57,11 +57,15 @@ npm run build
 
 ### **`Processing`**
 
-* Add Option in the Chrome `Right Option Menu`, Copy Element Selector
 * Field Actions
   * Max and Min Length, Live Character Counter
   * Small Select HTML Element to Convert to Search Select HTML Element
   * Autocomplete - Month, Random Number, Day, Country, Years
+
+### `V.0.0.2`
+
+* Add Option in the Chrome `Right Option Menu`, Copy Element Selector
+  * ![Copy Element Selector](./screenshot/copy-element-selector.png)
 
 ### `V.0.0.1`
 
