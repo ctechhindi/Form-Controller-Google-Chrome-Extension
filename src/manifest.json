@@ -5,9 +5,11 @@
   "description": "Form Controller Google Chrome Extension",
   "default_locale": "en",
   "permissions": [
-    "activeTab",
-    "<all_urls>",
-    "*://*/*"
+    "storage",
+    "tabs",
+    "http://*/",
+    "https://*/",
+    "<all_urls>"
   ],
   "icons": {
     "16": "icons/16.png",
@@ -28,6 +30,14 @@
       "38": "icons/38.png"
     }
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["script/root.js"]
+    }
+  ],
   "options_ui": {
     "page": "options.html",
     "open_in_tab": true
