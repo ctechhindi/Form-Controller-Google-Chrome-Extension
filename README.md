@@ -6,6 +6,8 @@ To upgrade and simplify any html form - Google Chrome Extension
 
 ![Form Controller](./screenshot/art.png)
 
+## [GitHub](https://github.com/ctechhindi/Form-Controller-Google-Chrome-Extension) 
+
 ## Field Actions
 
 | Action Name | Extra Options |
@@ -45,6 +47,7 @@ npm run build
 * [Buefy](https://buefy.org/)
 * [vue-codemirror](https://github.com/surmon-china/vue-codemirror)
 * [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+* [SelectorGenerator](https://github.com/flamencist/SelectorGenerator)
 
 ## Browser Support
 
@@ -54,8 +57,11 @@ npm run build
 
 ### **`Processing`**
 
-* Max and Min Length, Live Character Counter
-* Autocomplete - Month, Random Number, Day, Country, Years
+* Add Option in the Chrome `Right Option Menu`, Copy Element Selector
+* Field Actions
+  * Max and Min Length, Live Character Counter
+  * Small Select HTML Element to Convert to Search Select HTML Element
+  * Autocomplete - Month, Random Number, Day, Country, Years
 
 ### `V.0.0.1`
 

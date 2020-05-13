@@ -30,3 +30,4 @@ yarn-error.log*
 /src/root-script
 /src/mixins
 /src/class
+dist.pem

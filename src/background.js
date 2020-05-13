@@ -62,3 +62,18 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     });
   }
 });
+
+/**
+ * Copy Element Selector
+ */
+function onCopyElement(info, tab) {
+  chrome.tabs.sendMessage(tab.id, { target: "copyElementSelector" });
+};
+
+chrome.contextMenus.create({
+  id: "copyElementSelector",
+  title: "Copy Element Selector",
+  contexts: ["all"]
+});
+
+chrome.contextMenus.onClicked.addListener(onCopyElement)
