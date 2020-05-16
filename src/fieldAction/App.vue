@@ -319,6 +319,8 @@ export default {
         // Update: Characters
         "default_value": { name: "Default Value", value: "default_value" },
         "click": { name: "Click", value: "click" },
+        "focus": { name: "Focus", value: "focus" },
+        "tabIndex": { name: "Tab Index", value: "tabIndex" },
         "krutidevToUnicode": { name: "Convert Kruti Dev Font to Unicode", value: "krutidevToUnicode" },
         "unicodeToKrutidev": { name: "Convert Unicode to Kruti Dev Font", value: "unicodeToKrutidev" },
         "copyTo": { name: "Copy Value For Other Element", value: "copyTo" },
@@ -582,7 +584,7 @@ export default {
           copyElm: {key: "copyElm", value: "", label: "Copy Element ID"}
         };
 
-      } else if (actionName === "default_value") {
+      } else if (["tabIndex", "default_value"].indexOf(actionName) !== -1) { 
         this.actionModel.value = "";
         this.actionModel.extraOptions = {};
       } else {

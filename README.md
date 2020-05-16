@@ -62,6 +62,12 @@ npm run build
   * Small Select HTML Element to Convert to Search Select HTML Element
   * Autocomplete - Month, Random Number, Day, Country, Years
 
+### `V.0.0.3`
+
+* Add New Actions
+  * Field `Focus`
+  * Field `Tab Index`
+
 ### `V.0.0.2`
 
 * Add Option in the Chrome `Right Option Menu`, Copy Element Selector
