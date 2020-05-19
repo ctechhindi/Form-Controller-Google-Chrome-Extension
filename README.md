@@ -2,13 +2,15 @@
 
 To upgrade and simplify any html form - Google Chrome Extension
 
-<!-- ![Logo](./public/icons/192.png) -->
-
 ![Form Controller](./screenshot/art.png)
+
+If the site on which you are working for data entry does not have some `features` that you need, then with the help of this extension you can add it to that site.
 
 ## [GitHub](https://github.com/ctechhindi/Form-Controller-Google-Chrome-Extension) 
 
-## Field Actions
+## ✨ Field Actions
+
+Action is one of the features with which you can do the work easily.
 
 | Action Name | Extra Options |
 | ----------- | ------------- |
@@ -23,6 +25,8 @@ To upgrade and simplify any html form - Google Chrome Extension
 | CamelCase Characters |  |
 | Remove Whitespace |  |
 | Remove All Space |  |
+| Set Field Tab Index | `value` |
+| Focus Field |  |
 
 ## Screenshot
 
