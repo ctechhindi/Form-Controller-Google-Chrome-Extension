@@ -20,7 +20,7 @@
     "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
-    "@vue/cli-service": "~4.3.0",
+    "@vue/cli-service": "~5.0.8",
     "babel-minify": "^0.5.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
